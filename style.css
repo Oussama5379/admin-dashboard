@@ -13,7 +13,37 @@ html {
 	grid-template-rows: 1fr 4fr;
 }
 .header {
-	background-color: red;
+	padding: 20px;
+	font-weight: 800;
+	font-size: 26px;
+}
+.header input[type="text"] {
+	padding: 6px;
+	width: 700px;
+	background-color: #e2e8f0;
+	margin-right: 100px;
+	font-size: 17px;
+	border-radius: 30px;
+}
+.header img {
+	height: auto;
+	width: 50px;
+	border-radius: 30%;
+	margin: 0 20px;
+}
+.header-down {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+button {
+	height: 40px;
+	width: 100px;
+	border-radius: 30px;
+	background-color: #1992d4;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
 }
 .sidebar {
 	background-color: #1992d4;
@@ -34,10 +64,17 @@ html {
 }
 .main-content {
 	background-color: yellow;
+	background-color: #e2e8f0;
 }
 svg {
 	height: 50px;
 	width: 50px;
 	fill: white;
 	margin-right: 15px;
+}
+.header svg {
+	fill: black;
+	height: 25px;
+	width: 25px;
+	/* margin: 5px 0 0 5px; */
 }
